@@ -1,7 +1,26 @@
 aid: bankons
-name: Bankons
-description: Bankons is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bankons.png
+name: BankOns
+description: BankOns was a San Mateo, California mobile savings startup founded in the summer of 2010 by Joshua
+  Greenough, a former VP of Operations at PowerReviews. Launched in May 2011, the app connected a user's bank
+  transaction history to their location, analyzing spending habits to surface the nearby merchant deals and rewards
+  best suited to them, drawing on Foursquare and other local deals data. The name was a contraction of "bank"
+  and "coupons". BankOns was seed funded by 500 Startups (now 500 Global) plus a friends-and-family round. In
+  May 2012 Capital One acquired select BankOns software through a limited asset purchase agreement, and several
+  team members including Greenough joined Capital One Labs. The product was wound down and the company no longer
+  operates a consumer service or a developer platform. The bankons.com domain resolves to a GoDaddy parking lander
+  with no content, and no API, documentation, SDK, or developer surface exists.
 url: https://raw.githubusercontent.com/api-evangelist/bankons/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,25 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Assets and team acquired by Capital One in May 2012; domain parked and no operating product
+  or API surface as of 2026-07-20.
+x-acquired-by: Capital One
+x-acquired-date: '2012-05'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Acquired
+- Financial Services
+- Fintech
+- Mobile
+- Personal Finance
+- Rewards
+- Deals
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +54,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bankons-domain-security.yml
 - type: Website
   url: https://bankons.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
