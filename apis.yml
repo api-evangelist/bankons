@@ -33,7 +33,7 @@ x-status-detail: Assets and team acquired by Capital One in May 2012; domain par
   or API surface as of 2026-07-20.
 x-acquired-by: Capital One
 x-acquired-date: '2012-05'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
